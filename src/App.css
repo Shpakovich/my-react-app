@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.couner-container {
+  display: grid;
+  width: 200px;
+  height: 300px;
+  border: 2px solid #61dafb;
+  font-size: 70px;
+}
+
+.title {
+  margin: auto;
+}
+
+.button-block {
+  display: grid;
+  grid-auto-flow: column;
+  margin: auto;
+  grid-column-gap: 25px;
+}
+
+.button {
+  grid-column-gap: 20px;
+  font-size: 30px;
+  width: 50px;
+  background: transparent;
+  border: 1px solid #61dafb;
+  color: white;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
